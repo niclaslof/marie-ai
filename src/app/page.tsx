@@ -201,7 +201,7 @@ function PlayBar({ voice, isPlaying, progress, onToggle, onSeek }: { voice: Voic
         <div className="flex-1">
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-sm font-semibold text-gray-900">{voice.name}</span>
-            <span className="text-[0.65rem] text-gray-400 font-medium">{voice.category === "ref" ? "Nuvarande l\u00f6sning" : voice.category === "swedish" ? "Svensk AI-r\u00f6st" : "ElevenLabs Pro"}</span>
+            <span className="text-[0.65rem] text-gray-400 font-medium">{voice.category === "ref" ? "Nuvarande l\u00f6sning" : voice.category === "swedish" ? "Svensk AI-r\u00f6st" : "AI-r\u00f6st"}</span>
           </div>
           <div className="w-full h-2 bg-gray-100 rounded-full cursor-pointer relative group" onClick={(e) => { const r = e.currentTarget.getBoundingClientRect(); onSeek((e.clientX - r.left) / r.width); }}>
             <div className="h-full bg-gradient-to-r from-amber-400 to-orange-400 rounded-full transition-[width] duration-100 relative" style={{ width: `${progress * 100}%` }}>
@@ -323,9 +323,8 @@ export default function Home() {
             <h1 className="font-[family-name:var(--font-serif)] text-lg font-bold text-gray-900">Marie AI</h1>
             <span className="text-[0.55rem] font-bold uppercase tracking-wider bg-gradient-to-r from-amber-50 to-orange-50 text-amber-700 px-2.5 py-1 rounded-full border border-amber-200/60">Ljudbok Demo</span>
           </div>
-          <div className="flex items-center gap-2 text-[0.65rem] text-gray-400">
-            <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            ElevenLabs Pro
+          <div className="text-[0.65rem] text-gray-400">
+            Echo State
           </div>
         </div>
       </header>
@@ -482,7 +481,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-200/60 mt-16 py-8 text-center">
         <p className="text-[0.7rem] text-gray-400">Marie AI \u2014 Ljudboksj\u00e4mf\u00f6relse \u00a9 2026</p>
-        <p className="text-[0.6rem] text-gray-300 mt-1">Powered by ElevenLabs Pro \u00b7 Next.js \u00b7 Vercel</p>
+        <p className="text-[0.6rem] text-gray-300 mt-1">Echo State</p>
       </footer>
     </main>
   );
