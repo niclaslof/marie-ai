@@ -30,6 +30,7 @@ const VOICES: Voice[] = [
   { id: "a2RZfOPKpyNO38vDv3DD", name: "Annie", file: "annie.mp3", gender: "female", description: "Djup, seriös — akademisk ton", category: "swedish" },
   { id: "e6OiUVixGLmvtdn2GJYE", name: "Jonas", file: "jonas.mp3", gender: "male", description: "Lugn, informativ", category: "swedish" },
   { id: "6eknYWL7D5Z4nRkDy15t", name: "Tommy Thunström", file: "tommy.mp3", gender: "male", description: "Värm Stockholms-berättare", category: "swedish" },
+  { id: "8ygtgGe12MJC4rkSz8Fu", name: "Håkan PVC", file: "hakan-pvc.mp3", gender: "male", description: "Klonad svensk röst — PodVoice AI", category: "swedish" },
 ];
 
 const TTS_SUGGESTIONS = [
