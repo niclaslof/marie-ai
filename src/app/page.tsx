@@ -36,7 +36,7 @@ const VOICES: Voice[] = [
 const TTS_SUGGESTIONS = [
   { label: "Tomten på tomten", text: "Tomten vandrade över tomten med en stor säck på ryggen. Det var inte vilken tomte som helst, utan tomten som bodde på tomten vid torpet." },
   { label: "Sju sjuka sköterskor", text: "Sju sjuka sköterskor skötte sju sjuka sjömän på det sjunkande skeppet Shanghai." },
-  { label: "Barbro i baren", text: "Barbro bodde i en bod bakom en bar. I baren bakom Barbros bod bodde en barbar. Barbaren i baren bakom Barbros bod barberade sig med Barbros borste." },
+  { label: "Barbro i baren", text: "Barbro bodde i en bood bakom en bar. I baren bakom Barbros bood bodde en barbar. Barbaren i baren bakom Barbros bood barberade sig med Barbros borste." },
   { label: "Får får får?", text: "Får får får? Nej, får får inte får, får får lamm." },
   { label: "Nyhetsankaret", text: "God kväll och välkommen till nyheterna. Ikväll rapporterar vi om den senaste utvecklingen inom artificiell intelligens och dess påverkan på det svenska samhället." },
   { label: "Akademisk text", text: "Den hermeneutiska fenomenologin erbjuder ett epistemologiskt ramverk för att förstå subjektiva upplevelser i relation till sociokulturella strukturer och maktdynamiker." },
