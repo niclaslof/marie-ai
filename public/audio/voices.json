@@ -1,0 +1,72 @@
+[
+  {
+    "id": "onwK4e9ZLuTAKqWW03F9",
+    "name": "Daniel",
+    "file": "daniel.mp3",
+    "gender": "male",
+    "description": "Steady broadcaster, British middle-aged, professional narration"
+  },
+  {
+    "id": "JBFqnCBsd6RMkjVDRZzb",
+    "name": "George",
+    "file": "george.mp3",
+    "gender": "male",
+    "description": "Warm captivating storyteller, British middle-aged"
+  },
+  {
+    "id": "Xb7hH8MSUJpSbSDYk0k2",
+    "name": "Alice",
+    "file": "alice.mp3",
+    "gender": "female",
+    "description": "Clear engaging educator, British middle-aged"
+  },
+  {
+    "id": "XrExE9yKIg1WjnnlVkGX",
+    "name": "Matilda",
+    "file": "matilda.mp3",
+    "gender": "female",
+    "description": "Knowledgeable professional, American middle-aged"
+  },
+  {
+    "id": "pFZP5JQG7iQjIQuC4Bku",
+    "name": "Lily",
+    "file": "lily.mp3",
+    "gender": "female",
+    "description": "Velvety actress, British middle-aged"
+  },
+  {
+    "id": "nPczCjzI2devNBz1zQrb",
+    "name": "Brian",
+    "file": "brian.mp3",
+    "gender": "male",
+    "description": "Deep resonant and comforting, American middle-aged"
+  },
+  {
+    "id": "pqHfZKP75CvOlQylNhV4",
+    "name": "Bill",
+    "file": "bill.mp3",
+    "gender": "male",
+    "description": "Wise mature balanced, American old"
+  },
+  {
+    "id": "EXAVITQu4vr4xnSDxMaL",
+    "name": "Sarah",
+    "file": "sarah.mp3",
+    "gender": "female",
+    "description": "Mature reassuring confident, American young"
+  },
+  {
+    "id": "8ygtgGe12MJC4rkSz8Fu",
+    "name": "Håkan PVC",
+    "file": "hakan-pvc.mp3",
+    "gender": "male",
+    "description": "Swedish pro clone, native Swedish speaker"
+  },
+  {
+    "id": "CwhRBWXzGAHq8TQ4Fs17",
+    "name": "Roger",
+    "file": "roger.mp3",
+    "gender": "male",
+    "description": "Laid-back casual resonant, American middle-aged"
+  }
+]
